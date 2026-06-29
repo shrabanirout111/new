@@ -1,0 +1,49 @@
+'''def outerF():
+    print('outer has started')
+    def innerF():
+        print('innerF has started')
+        print('innerF has eneded')
+        innerF()
+        print('outerF has ended')
+outerF()'''
+
+#Armstrong Number(using function)
+'''def isArmstrong(n):
+    l=len(str(n))
+    dummy=n
+    res=0
+    while dummy !=0:
+        rem=dummy%10
+        res=res +rem**l
+        dummy //=10
+    if res==n:
+        return True
+    else:
+        return False
+print(isArmstrong(153))'''
+
+'''a=900
+def function():
+    global a
+    print('infs,',a)
+    a=5
+    print('infs,',a)
+function()
+print('in mainspace',a)'''
+
+'''def outerF():
+    print('outer has started')
+    def innerF():
+        print('innerF has started')
+        print('innerF has ended')
+    innerF()
+    print('outerF has ended')
+outerF()'''
+
+'''def display(n):
+    print(n)
+    if n==1:
+        return
+    display(n-1)
+print(display(3))'''
+
